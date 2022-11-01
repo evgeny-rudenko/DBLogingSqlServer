@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DBLoging", "DBLoging.sqlproj", "{BBC665DB-C999-4A8B-A416-0E7916B7D517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{44C7DA6C-D094-4115-BEC1-AA5277787C24}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.MD = Readme.MD
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC665DB-C999-4A8B-A416-0E7916B7D517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC665DB-C999-4A8B-A416-0E7916B7D517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC665DB-C999-4A8B-A416-0E7916B7D517}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BBC665DB-C999-4A8B-A416-0E7916B7D517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC665DB-C999-4A8B-A416-0E7916B7D517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC665DB-C999-4A8B-A416-0E7916B7D517}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB2D081-8902-4C9E-A673-36748F63D711}
+	EndGlobalSection
+EndGlobal

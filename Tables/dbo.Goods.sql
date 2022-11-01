@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[GOODS](
+	[ID_GOODS] [bigint] NOT NULL,
+	[NAME] [varchar](255) NULL,
+	[STORE_PLACE_NAME] [varchar](100) NULL,
+	[ID_ES] [uniqueidentifier] NULL,
+	[CODE] [varchar](16) NULL,
+	[PKKN] [bit] NULL,
+	[ID_GOODS_GLOBAL] [uniqueidentifier] NULL,
+	[ID_PRODUCER] [bigint] NULL,
+	[ID_SUBSTANCE] [bigint] NULL,
+	[IMPORTANT] [smallint] NULL,
+	[ID_GOODS_KIND] [bigint] NULL,
+	[ID_TRADE_NAME] [bigint] NULL,
+	[MARGIN] [varchar](1) NULL,
+	[ID_AP_FTG] [uniqueidentifier] NULL,
+	[ID_AP_MAN_CATEG] [uniqueidentifier] NULL,
+	[DESCRIPTION] [varchar](512) NULL,
+	[IN_DRUG] [smallint] NULL,
+	[BONUS] [int] NULL,
+	[IS_WEIGHT] [bit] NULL,
+	[NAME_SHORT] [nvarchar](38) NULL,
+	[IS_PRESCRIPTION] [bit] NULL,
+	[CONSUMER_CATEGORY] [nvarchar](200) NULL,
+	[IS_KIZ] [bit] NULL,
+	[N_FV] [int] NULL
+) ON [PRIMARY]
+GO
