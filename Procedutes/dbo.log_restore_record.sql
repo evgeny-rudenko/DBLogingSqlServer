@@ -72,7 +72,7 @@ IF @obj_name IS NULL
 
 IF @obj_name IS NULL
     BEGIN
-    SET @message = N'Table ''%s.%s'' not found'
+    SET @message = N'Таблица  ''%s.%s'' не найдена'
     RAISERROR(@message, 11, 0, @source_schema, @source_name)
     RETURN
     END
